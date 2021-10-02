@@ -29,8 +29,31 @@ export const StyledHeader = styled.header`
     > li:hover {
       cursor: pointer;
       transform: scale(1.1);
-      transition: all .2s;
+      transition: all 0.2s;
     }
+  }
+
+  @media (max-width: 992px) {
+    width: 100vw;
+    display: block;
+
+    > ul {
+      display: none;
+    }
+
+    > img {
+      margin-left: 40px;
+    }
+    padding: 20px 0;
+  }
+
+  @media (max-width: 768px) {
+    width: 100vw;
+    padding: 10px 0;
+  }
+
+  @media (max-width: 640px) {
+    background-size: 100%;
   }
 `;
 

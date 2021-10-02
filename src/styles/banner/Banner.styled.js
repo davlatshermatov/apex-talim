@@ -4,16 +4,15 @@ export const StyledBanner = styled.div`
   > div {
     color: white;
     background-image: url("./images/background-image.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    /* position: relative; */
     top: 0;
     text-align: center;
-    width: 100%;
+    width: 100vw;
   }
 
   .overlay {
@@ -22,6 +21,22 @@ export const StyledBanner = styled.div`
     mix-blend-mode: multiply;
     height: 100vh;
   }
+
+  @media (max-width: 992px) {
+    width: 100vw;
+
+  }
+
+  @media (max-width: 768px) {
+    width: 100vw;
+
+
+  }
+
+  @media (max-width: 640px) {
+    background-size: 100%;
+    
+}
 `;
 
 export const BannerDetailsStyled = styled.div`
@@ -42,6 +57,27 @@ export const BannerDetailsStyled = styled.div`
   }
 
   > div {
-    padding: 0 400px;
+    padding: 0 200px;
   }
+
+  @media (max-width: 992px) {
+    /* margin-top: 50px; */
+    > h1 {
+      font-size: 60px;
+      padding:0 40px;
+    }
+
+    > div {
+      padding: 0 100px;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 640px) {
+
+}
+
 `;
