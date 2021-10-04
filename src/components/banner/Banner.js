@@ -1,5 +1,5 @@
+  /* margin-bottom: 80px; */
 import React from "react";
-import { Button } from "../../styles/common/Button";
 import {
   StyledBanner,
   BannerDetailsStyled,
@@ -19,7 +19,7 @@ const Banner = () => {
               bo’ladi.
             </p>
           </div>
-          <Button>kursga yozilish</Button>
+          <button className="button">kursga yozilish</button>
         </BannerDetailsStyled>
       </div>
     </StyledBanner>

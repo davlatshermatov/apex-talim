@@ -22,6 +22,86 @@ const teachers = [
     img: "teacher-alibek"
 
   },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
+  {
+    name: "Murodov Alibek",
+    subject: "Ingliz tili fani o‘qituvchisi",
+    experience: "Ish tajribasi: 4 yil",
+    students: "O‘qitgan talabalari soni: 300+",
+    img: "teacher-alibek"
+
+  },
 ];
 
 export default teachers;

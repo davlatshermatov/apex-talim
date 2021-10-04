@@ -19,7 +19,23 @@ export const StyledVideos = styled.div`
 
   iframe {
     object-fit: cover;
-    width: 30%;
+    width: 100%;
     height: 250px;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    > div {
+      display: block;
+    }
+
+    iframe {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
   }
 `;

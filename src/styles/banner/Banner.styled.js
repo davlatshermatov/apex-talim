@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const StyledBanner = styled.div`
+  overflow-x: hidden;
   > div {
     color: white;
-    background-image: url("./images/background-image.png");
+    background-image: url("./images/background-image.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,20 +24,19 @@ export const StyledBanner = styled.div`
   }
 
   @media (max-width: 992px) {
-    width: 100vw;
-
   }
 
   @media (max-width: 768px) {
-    width: 100vw;
+    background-size: auto;
 
-
+    > div,
+    .overlay {
+      height: 95vh;
+    }
   }
 
   @media (max-width: 640px) {
-    background-size: 100%;
-    
-}
+  }
 `;
 
 export const BannerDetailsStyled = styled.div`
@@ -56,28 +56,46 @@ export const BannerDetailsStyled = styled.div`
     margin-bottom: 60px;
   }
 
+  .button {
+    background-color: ${({ theme }) => theme.colors.button};
+    padding: 15px 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    width: ${(props) => props.width};
+    border-radius: 10px;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(0.95);
+      transition: all 0.3s ease-in-out;
+      font-weight: 700;
+    }
+  }
+
   > div {
     padding: 0 200px;
   }
 
   @media (max-width: 992px) {
-    /* margin-top: 50px; */
-    > h1 {
-      font-size: 60px;
-      padding:0 40px;
-    }
-
-    > div {
-      padding: 0 100px;
-    }
   }
 
   @media (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
 
+    p {
+      font-size: 18px;
+      margin: 50px 0;
+    }
+
+    > div {
+      padding: 0 50px;
+    }
   }
 
   @media (max-width: 640px) {
-
-}
-
+  }
 `;

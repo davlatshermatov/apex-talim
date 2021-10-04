@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "../../styles/common/Button";
 import { StyledCourseBox } from "../../styles/coures/Courses.styled";
 
 const CourseBox = ({ course }) => {
@@ -10,9 +9,9 @@ const CourseBox = ({ course }) => {
         <div className="details">
           <p>{course.subject} </p>
           <span>{course.desc}</span>
-          <Button fluid thin>
+          <button className="button">
             kursga yozilish
-          </Button>
+          </button>
         </div>
       </div>
     </StyledCourseBox>

@@ -20,6 +20,34 @@ const results = [
     period: "Abiturientlik davri: 5 oylik tayyorlov kursi",
     img: "madina",
   },
+  {
+    name: "Yo‘lchiyeva Madina",
+    university:
+      "O‘qishga kirgan oliygoh nomi: Toshkent Davlat Nizomiy Universiteti",
+    period: "Abiturientlik davri: 5 oylik tayyorlov kursi",
+    img: "madina",
+  },
+  {
+    name: "Yo‘lchiyeva Madina",
+    university:
+      "O‘qishga kirgan oliygoh nomi: Toshkent Davlat Nizomiy Universiteti",
+    period: "Abiturientlik davri: 5 oylik tayyorlov kursi",
+    img: "madina",
+  },
+  {
+    name: "Mavlonov Abdulla",
+    university:
+      "O‘qishga kirgan oliygoh nomi: Toshkent Davlat Yuridik Universiteti",
+    period: "Abiturientlik davri: 8 oylik tayyorlov kursi",
+    img: "abdulla",
+  },
+  {
+    name: "Mavlonov Abdulla",
+    university:
+      "O‘qishga kirgan oliygoh nomi: Toshkent Davlat Yuridik Universiteti",
+    period: "Abiturientlik davri: 8 oylik tayyorlov kursi",
+    img: "abdulla",
+  },
 ];
 
 export default results;

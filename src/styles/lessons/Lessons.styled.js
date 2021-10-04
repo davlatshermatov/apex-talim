@@ -32,6 +32,21 @@ export const StyledLessons = styled.div`
   img:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: all .2s ease-in-out; 
+    transition: all 0.2s ease-in-out;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    > div {
+      display: block;
+    }
+    > div > div {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 640px) {
   }
 `;

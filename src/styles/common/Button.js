@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   background-color: ${({ theme }) => theme.colors.button};
-  padding: ${(props) => (props.thin ? "15px 50px" : "20px 50px")};
+  padding: ${props => props.padding};
   border: none;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
-  width: ${(props) => (props.fluid ? "100%" : "")};
+  width: ${props => props.width};
   border-radius: 10px;
 
   &:hover {
@@ -22,7 +22,7 @@ export const Button = styled.button`
   }
 
   @media (max-width: 768px) {
-    width: 300px;
+    /* width: 300px; */
     padding: 30px;
   }
 

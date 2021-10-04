@@ -6,11 +6,15 @@ const GlobalStyles = createGlobalStyle`
 
   *{
       box-sizing: border-box;
+      text-decoration: none;
   }  
 
   body {
     margin: 0;
     font-family:'Montserrat', sans-serif;
+    width: 100%;
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
   }
 
 `;

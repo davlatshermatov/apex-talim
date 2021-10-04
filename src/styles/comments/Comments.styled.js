@@ -4,7 +4,7 @@ export const StyledComments = styled.div`
   margin: 100px 0;
   color: black;
 
-  > h1 {
+   h1 {
     font-weight: 700;
     color: #00445b;
   }
@@ -14,10 +14,22 @@ export const StyledComments = styled.div`
     justify-content: space-between;
     width: 100%;
   }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    > div {
+      display: block;
+    }
+  }
+
+  @media (max-width: 640px) {
+  }
 `;
 
 export const StyledCommentBox = styled.div`
-  width: 30%;
+  width: 100%;
   margin-top: 50px;
 
   img {
@@ -28,7 +40,7 @@ export const StyledCommentBox = styled.div`
   h3 {
     font-size: 18px;
     margin-top: 15px;
-    margin-bottom :5px;
+    margin-bottom: 5px;
   }
 
   span {
@@ -51,7 +63,17 @@ export const StyledCommentBox = styled.div`
   }
 
   .ratings {
-      color:#FDB44B;
-      margin-bottom: 20px;
+    color: #fdb44b;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media (max-width: 640px) {
   }
 `;

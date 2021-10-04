@@ -30,7 +30,7 @@ class App extends Component {
           <Videos />
           <StudentResults />
           <Comments />
-          {/* <ContactUs /> */}
+          <ContactUs />
         </Container>
           <Footer />
       </ThemeProvider>

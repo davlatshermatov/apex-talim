@@ -14,10 +14,22 @@ export const StyledTeachers = styled.div`
     justify-content: space-between;
     width: 100%;
   }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    >div {
+      display: block;
+    }
+  }
+
+  @media (max-width: 640px) {
+  }
 `;
 
 export const StyledTeacherBox = styled.div`
-  width: 30%;
+  width: 100%;
   margin-top: 50px;
 
   img {
@@ -41,5 +53,15 @@ export const StyledTeacherBox = styled.div`
   .details {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
     padding: 10px 40px;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media (max-width: 640px) {
   }
 `;

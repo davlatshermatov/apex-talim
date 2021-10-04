@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const StyledNews = styled.div`
   margin-top: 100px;
   color: black;
+  width: 100%;
+
+  
+
+ 
 
   > h1 {
     font-weight: 700;
@@ -12,16 +17,34 @@ export const StyledNews = styled.div`
   }
 
   > div {
+    display: flex; 
+    flex-direction: column;
+    /*  justify-content: space-between; */
+    /* overflow: auto; */
+    /* width: 100%;  */
+  }
+
+  /* .test {
     display: flex;
-    justify-content: space-between;
-    overflow: auto;
-    width: 100%;
+  } */
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    > div {
+      display: block;
+    }
+  }
+
+  @media (max-width: 640px) {
   }
 `;
 
 export const StyledNewsBox = styled.div`
-  width: 30%;
+  width: 100%;
   margin-top: 50px;
+  margin-right: 20px;
 
   img {
     object-fit: contain;
@@ -37,4 +60,14 @@ export const StyledNewsBox = styled.div`
     font-size: 14px;
     color: #646464;
   }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  /* @media (max-width: 640px) {
+  } */
 `;

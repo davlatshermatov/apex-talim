@@ -17,10 +17,22 @@ export const StyledStudentsResults = styled.div`
     width: 100%;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    > div {
+      display: block;
+    }
+  }
+
+  @media (max-width: 640px) {
+  }
 `;
 
 export const StyledResultBox = styled.div`
-  width: 30%;
+  width: 100%;
   text-align: center;
 
   img {
@@ -35,7 +47,7 @@ export const StyledResultBox = styled.div`
   }
 
   > div {
-      margin-top: -55px;
+    margin-top: -55px;
     text-align: start;
     padding: 20px 40px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
@@ -48,5 +60,19 @@ export const StyledResultBox = styled.div`
 
   p {
     letter-spacing: 2%;
+  }
+
+  @media (max-width: 992px) {
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    >div {
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 640px) {
   }
 `;

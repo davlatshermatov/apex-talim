@@ -14,6 +14,46 @@ const CourseContent = [
     desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
     img: "course-english"
   },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
+  {
+    subject: "Ingliz tili",
+    desc: "Ingliz tili fanini mukammal o'rganish yangi metodikasi bilan o'rganamiz",
+    img: "course-english"
+  },
 ];
 
 export default CourseContent;
