@@ -6,8 +6,9 @@ import Carousel from "react-elastic-carousel";
 import { breakpoints } from "../../CarouselConfig";
 
 const Teachers = () => {
+  
   return (
-    <StyledTeachers>
+    <StyledTeachers id="teachers">
       <h1>Ustozlar </h1>
       <div>
         <Carousel

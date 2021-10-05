@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Container } from "../../styles/common/Container.styled";
-  import { StyledFooter } from "../../styles/footer/Footer.styled";
+import { StyledFooter } from "../../styles/footer/Footer.styled";
 
 const Footer = () => {
   return (
@@ -14,10 +15,12 @@ const Footer = () => {
           <input type="email" placeholder="Email manzilingizni yozing" />
           <button className="button"> yuborish</button>
         </div>
-        
+
         <div className="line"></div>
         <div className="logo">
-          <img src="./images/logo-2.svg" alt="" />
+          <Link to="header">
+            <img src="./images/logo-2.svg" alt="" />
+          </Link>
           <p>©2021. Apex ta’lim. Xizmatlar litsenziyalangan.</p>
         </div>
       </Container>

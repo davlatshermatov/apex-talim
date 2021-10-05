@@ -7,7 +7,7 @@ import { breakpoints } from "../../CarouselConfig";
 
 const Comments = () => {
   return (
-    <StyledComments>
+    <StyledComments id="comments">
       <h1>Mijozlarimiz izohlari</h1>
 
       <div>

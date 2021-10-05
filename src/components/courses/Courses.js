@@ -9,7 +9,7 @@ const Courses = () => {
   const courses = CourseContent;
 
   return (
-    <StyledCourses>
+    <StyledCourses id="courses">
       <h1>Kurslar </h1>
       <div>
         <Carousel

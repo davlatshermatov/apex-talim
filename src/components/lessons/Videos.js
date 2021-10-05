@@ -5,7 +5,7 @@ import { breakpoints } from "../../CarouselConfig";
 
 const Videos = () => {
   return (
-    <StyledVideos>
+    <StyledVideos id="videos">
       <h1>Darslardan videolavhalar</h1>
       <div>
         <Carousel

@@ -57,6 +57,7 @@ export const BannerDetailsStyled = styled.div`
   }
 
   .button {
+    -webkit-font-smoothing: subpixel-antialiased;
     background-color: ${({ theme }) => theme.colors.button};
     padding: 15px 20px;
     border: none;
@@ -68,17 +69,21 @@ export const BannerDetailsStyled = styled.div`
 
     &:hover {
       cursor: pointer;
-      transform: scale(0.95);
-      transition: all 0.3s ease-in-out;
-      font-weight: 700;
+      letter-spacing: 10.1;
+      transform: scale(0.9);
+      transition: all 0.3s;
     }
   }
 
   > div {
-    padding: 0 200px;
+    margin: auto;
+    width: 40%;
   }
 
   @media (max-width: 992px) {
+    > div {
+      width: 50%;
+    }
   }
 
   @media (max-width: 768px) {
@@ -86,9 +91,12 @@ export const BannerDetailsStyled = styled.div`
       font-size: 36px;
     }
 
+    > div {
+      width: 60%;
+    }
+
     p {
-      font-size: 18px;
-      margin: 50px 0;
+      font-size: 20px;
     }
 
     > div {
@@ -97,5 +105,83 @@ export const BannerDetailsStyled = styled.div`
   }
 
   @media (max-width: 640px) {
+    > div {
+      width: 90%;
+    }
+
+    p {
+      margin-top: 30px;
+      font-size: 18px;
+    }
+  }
+`;
+
+export const MyStyledModal = styled.div`
+  .header {
+    width: 100%;
+    height: 120px;
+    background-color: #00445b;
+    text-align: center;
+    padding: 15px;
+
+    > img {
+      object-fit: contain;
+      height: 90px;
+    }
+
+    > i {
+      justify-self: flex-end;
+      float: right;
+      color: #fff;
+      font-size: 22px;
+    }
+
+    i:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+
+  .body {
+    text-align: center;
+    padding: 30px 0;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      margin: auto;
+      margin-top: 40px;
+      position: relative;
+      height: 300px;
+    }
+
+    input {
+      border: 0.5px solid #646464;
+      padding: 15px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .register {
+      margin: 30px 0;
+      width: 200px;
+      background: #00445b;
+      padding: 15px;
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      position: absolute;
+      right:0;
+      top:150px;
+    }
+
+    background: linear-gradient(
+      124.06deg,
+      #ecfefa 9.47%,
+      #bee9ff 29.35%,
+      #dbeaff 60.79%,
+      #f3dbff 85.49%
+    );
   }
 `;

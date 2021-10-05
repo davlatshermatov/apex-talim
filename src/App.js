@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Header from "./components/header/Header";
 import theme from "./Theme";
 import { ThemeProvider } from "styled-components";
@@ -15,13 +15,14 @@ import Comments from "./components/comments/Comments";
 import ContactUs from "./components/contact-us/ContactUs";
 import Footer from "./components/footer/Footer";
 
-class App extends Component {
-  render() {
-    return (
+function App() {
+  const [clicked, setClicked] = useState(false);
+
+  return (
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <Header />
-        <Banner />
+        <Header clicked={clicked} setClicked={setClicked} />
+        <Banner/>
         <Container>
           <News />
           <Courses />
@@ -32,10 +33,10 @@ class App extends Component {
           <Comments />
           <ContactUs />
         </Container>
-          <Footer />
+        <Footer />
       </ThemeProvider>
-    );
-  }
+  
+  );
 }
 
 export default App;

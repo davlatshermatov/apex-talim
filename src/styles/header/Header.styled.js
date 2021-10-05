@@ -12,15 +12,24 @@ export const StyledHeader = styled.header`
   width: 100%;
   z-index: 100;
 
-  > img:hover {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+   img:hover {
     cursor: pointer;
   }
 
-  > ul {
+  .menu-icon {
+    display: none;
+  }
+
+  > .nav-menu {
     display: flex;
     width: 60%;
     justify-content: space-evenly;
-    font-weight: 500;
+    /* font-weight: 500; */
 
     > li {
       list-style-type: none;
@@ -29,20 +38,64 @@ export const StyledHeader = styled.header`
     > li:hover {
       cursor: pointer;
       transform: scale(1.1);
-      transition: all 0.2s;
+      transition: all 0.1s ease-out;
     }
   }
 
   @media (max-width: 992px) {
     width: 100vw;
-    display: block;
+    /* display: block; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    > ul {
-      display: none;
+    > .nav-menu {
+      position: relative;
+      flex-direction: column;
+      width: 100%;
+      height: 96vh;
+      position: absolute;
+      top: -10px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.3s;
+
+      > li {
+        width: 90%;
+        margin: 0;
+      }
+
+      > li:hover {
+        cursor: pointer;
+        transform: translateX(20px);
+        transition: all 0.2s;
+      }
     }
 
-    > img {
-      margin-left: 40px;
+    .nav-menu.active {
+      background: rgba(0, 0, 0, 0.95);
+      left: 0;
+      opacity: 1;
+      transition: all 0.2s ease;
+      z-index: 1;
+    }
+
+    .menu-icon {
+      margin-right: 20px;
+      display: block;
+      float: right;
+      font-size: 25px;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .menu-icon:hover {
+    }
+
+     img {
+      margin-left: 30px;
+      height: 60px;
     }
     padding: 20px 0;
   }

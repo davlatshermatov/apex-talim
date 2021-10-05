@@ -7,7 +7,7 @@ import { breakpoints } from "../../CarouselConfig";
 
 const StudentResults = () => {
   return (
-    <StyledStudentsResults>
+    <StyledStudentsResults id="results">
       <h1>O’quvchilarimiz natijalari</h1>
 
       <div>

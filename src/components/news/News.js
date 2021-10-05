@@ -8,7 +8,7 @@ import { breakpoints } from "../../CarouselConfig";
 const News = () => {
   const contents = NewsContent;
   return (
-    <StyledNews>
+    <StyledNews id="news">
       <h1>Yangiliklar</h1>
       <div>
         <Carousel

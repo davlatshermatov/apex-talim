@@ -15,7 +15,7 @@ import {
 
 const ContactUs = () => {
   return (
-    <StyledContactUs>
+    <StyledContactUs id="contact">
       <h1>Biz bilan bog’lanish</h1>
 
       <div>
